@@ -1,0 +1,14 @@
+{
+  "name": "killer-or-innocent-wiki",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "killer-or-innocent.wiki",
+      "custom_domain": true
+    }
+  ]
+}
