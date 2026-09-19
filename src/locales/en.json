@@ -7,9 +7,14 @@
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
-    "home": "Home",
-    "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "roles": "Roles",
+    "modes": "Modes",
+    "controls": "Controls",
+    "progression": "Progression",
+    "codes": "Codes",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -70,62 +75,6 @@
         "Role Guides",
         "Beginner Guide",
         "Tips & Tricks"
-      ],
-      "cards": [
-        {
-          "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
-        }
       ]
     },
     "aboutGame": {
@@ -437,8 +386,38 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
-
+  "guide": {
+    "overviewTitle": "Killer or Innocent Guides",
+    "overviewDescription": "Every Killer or Innocent guide in one place: beginner walkthroughs, how to play, strategy tips, and role-specific game plans for killers, innocents, and detectives."
+  },
+  "mechanics": {
+    "overviewTitle": "Killer or Innocent Mechanics",
+    "overviewDescription": "How Killer or Innocent actually works: clues, evidence, investigations, murder mystery logic, and the distinct mechanics that separate killer play from innocent play."
+  },
+  "roles": {
+    "overviewTitle": "Killer or Innocent Roles",
+    "overviewDescription": "All Killer or Innocent roles explained, including killer, innocent, detective, murderer, and bystander, with win conditions, abilities, and how to play each one."
+  },
+  "modes": {
+    "overviewTitle": "Killer or Innocent Game Modes",
+    "overviewDescription": "Killer or Innocent game modes, party mode, multiplayer lobbies, and round structure explained, so you know exactly what to expect before a round starts."
+  },
+  "controls": {
+    "overviewTitle": "Killer or Innocent Controls",
+    "overviewDescription": "Killer or Innocent controls for attack, defend, and knife play, with the inputs, timing, and combat basics you need to win a straight fight."
+  },
+  "progression": {
+    "overviewTitle": "Killer or Innocent Progression",
+    "overviewDescription": "Killer or Innocent progression explained: rewards, coins, items, and skins, plus the fastest ways to unlock everything the game has to offer."
+  },
+  "codes": {
+    "overviewTitle": "Killer or Innocent Codes",
+    "overviewDescription": "All Killer or Innocent codes in one list, with what each reward gives you and how to redeem working codes before they expire."
+  },
+  "community": {
+    "overviewTitle": "Killer or Innocent Community",
+    "overviewDescription": "Killer or Innocent community hub: official Reddit and Discord links, release date news, update notes, and gameplay coverage from the player base."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -454,7 +433,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
   },
   "footer": {
     "aboutTitle": "Killer or Innocent Wiki",
@@ -468,10 +449,10 @@
     "robloxGroup": "Roblox Community Group",
     "codesHub": "Codes & Rewards",
     "guidesHub": "All Guides",
-    "raceGuides": "Races",
-    "bossGuides": "Bosses",
-    "mapsGuide": "Maps",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "rolesGuides": "Roles",
+    "mechanicsGuides": "Mechanics",
+    "modesGuides": "Game Modes"
   }
 }

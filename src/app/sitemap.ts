@@ -10,14 +10,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Static paths that always exist: content-type listing pages (derived from
   // CONTENT_TYPES so the two can never drift apart) plus standalone pages.
+  const listingPaths = CONTENT_TYPES.map((contentType) => `/${contentType}`);
   const staticPaths = [
     "/",
-    ...CONTENT_TYPES.map((contentType) => `/${contentType}`),
+    ...listingPaths,
     "/privacy-policy",
     "/terms-of-service",
     "/copyright",
     "/about",
   ];
+  const listingSet = new Set<string>(listingPaths);
 
   // Dynamic paths: scan actual MDX content files
   const contentPaths = await getAllContentPaths("en");
@@ -30,7 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${siteUrl}/${locale}${path === "/" ? "" : path}`,
       lastModified: new Date(),
       changeFrequency: path === "/" ? ("daily" as const) : ("weekly" as const),
-      priority: path === "/" ? 1 : path === "/bosses" ? 0.8 : 0.6,
+      priority: path === "/" ? 1 : listingSet.has(path) ? 0.8 : 0.6,
     })),
   );
 }

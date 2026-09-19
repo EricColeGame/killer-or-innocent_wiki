@@ -35,6 +35,8 @@ export const siteConfig: SiteConfig = {
     // instead of pointing at unrelated Roblox-run accounts.
     robloxGroup: "https://www.roblox.com/groups/97331962",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 语言列表的唯一真相源是 src/i18n/routing.ts；这两个字段仅为兼容旧模板保留，
+  // 全仓库已无消费者，取值必须与 routing.locales / routing.defaultLocale 保持一致。
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };

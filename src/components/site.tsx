@@ -16,7 +16,10 @@ export function localizeHref(href: string, locale: string) {
 }
 
 export async function SiteHeader({ locale }: { locale: string }) {
+  // nav 命名空间只承载内容分类键（key 与 NAVIGATION_CONFIG 一一对应）；
+  // 主题切换等 UI chrome 文案放在 shared，避免污染分类键集合。
   const t = await getTranslations({ locale, namespace: "nav" });
+  const ts = await getTranslations({ locale, namespace: "shared" });
   const header = (
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
@@ -34,9 +37,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
       </nav>
       <div className="flex items-center gap-2">
         <LanguageSwitcher locale={locale} />
-        <ThemeToggle label={t("toggleTheme")} />
+        <ThemeToggle label={ts("toggleTheme")} />
         <Sheet>
-          <SheetTrigger asChild className="md:hidden"><Button variant="outline" size="icon" aria-label={t("menu")}><Menu className="h-4 w-4" /></Button></SheetTrigger>
+          <SheetTrigger asChild className="md:hidden"><Button variant="outline" size="icon" aria-label={ts("menu")}><Menu className="h-4 w-4" /></Button></SheetTrigger>
           <SheetContent className="border-border bg-background text-foreground">
             <div className="mt-8 grid gap-2">
               {NAVIGATION_CONFIG.map((item) => <Link key={item.key} href={localizeHref(item.path, locale)} className="rounded-lg px-3 py-3 text-sm font-semibold hover:bg-muted">{t(item.key)}</Link>)}
@@ -66,7 +69,7 @@ export async function WikiSidebar({ locale, navGroups, currentPath }: { locale: 
 export async function SiteFooter({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "footer" });
   const site = await getTranslations({ locale, namespace: "site" });
-  return <footer className="mt-16 border-t border-border bg-card/30"><div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8"><div className="mb-10 rounded-2xl border border-border bg-muted/40 p-5"><div className="font-bold text-foreground">{siteConfig.name}</div><p className="mt-1 text-sm text-muted-foreground">{t("description")}</p><Link href={siteConfig.gameUrl || "#"} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">{t("playGame")} <ExternalLink className="h-4 w-4" /></Link></div><p className="mb-8 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">{site("legalNotice")}</p><div className="grid gap-8 md:grid-cols-4"><div className="md:col-span-2"><h3 className="font-bold text-foreground">{t("aboutTitle")}</h3><p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">{t("about")}</p></div><FooterList locale={locale} title={t("quickLinks")} links={[[t("playGame"), siteConfig.gameUrl || "#"], [t("robloxGroup"), siteConfig.social?.robloxGroup || "#"], [t("codesHub"), "/codes"]]} /><FooterList locale={locale} title={t("guides")} links={[[t("guidesHub"), "/guide"], [t("raceGuides"), "/races"], [t("bossGuides"), "/bosses"], [t("mapsGuide"), "/maps"], [t("privacyPolicy"), "/privacy-policy"], [t("termsOfService"), "/terms-of-service"]]} /></div><div className="mt-10 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"><p>{t("copyright")}</p><a href={`mailto:${siteConfig.supportEmail}`} className="hover:text-foreground hover:underline">{siteConfig.supportEmail}</a></div></div></footer>;
+  return <footer className="mt-16 border-t border-border bg-card/30"><div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8"><div className="mb-10 rounded-2xl border border-border bg-muted/40 p-5"><div className="font-bold text-foreground">{siteConfig.name}</div><p className="mt-1 text-sm text-muted-foreground">{t("description")}</p><Link href={siteConfig.gameUrl || "#"} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">{t("playGame")} <ExternalLink className="h-4 w-4" /></Link></div><p className="mb-8 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">{site("legalNotice")}</p><div className="grid gap-8 md:grid-cols-4"><div className="md:col-span-2"><h3 className="font-bold text-foreground">{t("aboutTitle")}</h3><p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">{t("about")}</p></div><FooterList locale={locale} title={t("quickLinks")} links={[[t("playGame"), siteConfig.gameUrl || "#"], [t("robloxGroup"), siteConfig.social?.robloxGroup || "#"], [t("codesHub"), "/codes"]]} /><FooterList locale={locale} title={t("guides")} links={[[t("guidesHub"), "/guide"], [t("rolesGuides"), "/roles"], [t("mechanicsGuides"), "/mechanics"], [t("modesGuides"), "/modes"], [t("privacyPolicy"), "/privacy-policy"], [t("termsOfService"), "/terms-of-service"]]} /></div><div className="mt-10 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"><p>{t("copyright")}</p><a href={`mailto:${siteConfig.supportEmail}`} className="hover:text-foreground hover:underline">{siteConfig.supportEmail}</a></div></div></footer>;
 }
 
 function FooterList({ locale, title, links }: { locale: string; title: string; links: string[][] }) { return <div><h4 className="font-semibold text-foreground">{title}</h4><ul className="mt-3 space-y-2 text-sm text-muted-foreground">{links.map(([label, href]) => <li key={href}><Link className="hover:text-foreground" href={href.startsWith("/") ? localizeHref(href, locale) : href}>{label}</Link></li>)}</ul></div>; }

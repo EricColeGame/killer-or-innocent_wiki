@@ -1,0 +1,153 @@
+export const metadata = {
+  title: "Códigos de Asesino o Inocente: Guía Completa de Workshop y Reglas de Juego",
+  description: "Encuentra los últimos códigos de asesino o inocente, claves de importación de workshop, guías de mecánicas y estrategias de supervivencia para partidas personalizadas de deducción social.",
+  category: "codes",
+  date: "2026-09-18",
+}
+
+Los modos de deducción social han transformado por completo el funcionamiento de las salas personalizadas, convirtiendo escaramuzas rápidas en juegos mentales psicológicos de alto riesgo. Localizar **códigos de asesino o inocente** que funcionen puede ser complicado cuando las actualizaciones del Workshop modifican los scripts de las partidas; sin embargo, tener acceso al conjunto de reglas adecuado es esencial para albergar una partida equilibrada. Si quieres unirte a estas intensas salas personalizadas sin toparte con scripts rotos o salas inactivas, encontrar **códigos de asesino o inocente** válidos garantiza que tu sala funcione a la perfección con roles plenamente operativos, barras de resistencia e interacciones ocultas entre héroes.
+
+Tanto si te toca el rol de un astuto asesino que acecha en las sombras como el de un civil desprevenido que intenta sobrevivir hasta que expire el tiempo, comprender las mecánicas del juego separa a los vencedores de los caídos. En esta guía, desglosamos los códigos de importación activos, las reglas fundamentales de deducción social, las modificaciones específicas para cada héroe y las tácticas de supervivencia esenciales.
+
+## ¿Qué son los códigos de partidas personalizadas de Asesino o Inocente?
+
+Los modos de deducción social remontan sus orígenes a títulos clásicos como *Trouble in Terrorist Town* (TTT) y a éxitos de fiesta modernos como *Among Us*. Dentro de los talleres personalizados de shooters basados en héroes, los creadores diseñaron scripts que dividen la sala en dos facciones distintas: la mayoría inocente y un equipo encubierto de asesinos o traidores.
+
+En lugar de los objetivos de equipo estándar, como empujar una carga o capturar un punto de control, estos modos personalizados se basan en el engaño, la conciencia espacial y el instinto detectivesco. Al importar **códigos de asesino o inocente** modernos, el motor elimina las afiliaciones de equipo convencionales, activa consecuencias por fuego amigo e inyecta medidores de resistencia personalizados para un movimiento especializado.
+
+| Característica principal | Modo de deducción personalizado | Hero Shooter estándar |
+| :--- | :--- | :--- |
+| **Estructura de equipo** | Asimétrica oculta (Traidor vs. Inocente) | Simétrica 5v5 o 6v6 |
+| **Fuego amigo** | Activado con penalizaciones fatales por retroceso | Desactivado o estrictamente limitado |
+| **Condición de victoria** | Eliminar a la facción opuesta / sobrevivir al tiempo | Asegurar el objetivo del mapa o límite de puntuación |
+| **Flujo de información** | Imperfecto; depende de la deducción detectivesca | Rastreo completo en la interfaz y avisos de enemigos |
+| **Físicas de movimiento** | Resistencia personalizada para Sprint / Supersalto | Habilidades fijas específicas de cada héroe |
+
+Según informes de la comunidad, los ajustes preestablecidos del Workshop a menudo pasan por ciclos de actualizaciones a medida que los parches del juego modifican las referencias base de los scripts. Debido a esto, los jugadores comparten y prueban frecuentemente nuevos códigos de importación para mantener la estabilidad de las salas en diversas plataformas.
+
+## Códigos y ajustes preestablecidos activos de Workshop para Asesino o Inocente
+
+Al configurar una sala personalizada, introducir el código de Workshop correcto determina la estabilidad y el conjunto de funciones de tu partida. Aunque los scripts más antiguos de los repositorios del Workshop suelen expirar tras las actualizaciones importantes del motor en cada temporada, la comunidad mantiene varias ramas activas. Puedes consultar el [explorador oficial de partidas personalizadas de Overwatch 2](https://overwatch.blizzard.com/) para verificar si la versión actual de tu cliente es compatible con las últimas actualizaciones del Workshop.
+
+La siguiente tabla resume las variaciones de ajustes preestablecidos más comunes, sus etiquetas funcionales y sus características principales de juego:
+
+| Nombre del ajuste | Experiencia objetivo | Distribución de roles | Número de jugadores recomendado | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Deducción TTT Clásica** | Misterio tradicional con pistas de detective | Hasta 25% Asesinos / 75% Inocentes | 8–12 Jugadores | Activo |
+| **Misterio de Cambio de Héroe** | Modificaciones de habilidades con inversión de roles | 1–3 Traidores / Resto Inocentes | 6–10 Jugadores | Activo |
+| **Persecución de Alta Movilidad** | Énfasis en supersalto y resistencia acelerada | 2 Traidores / 8 Inocentes | 10 Jugadores | En pruebas |
+| **Detective Hardcore** | Sin destellos de confirmación, fuego amigo estricto | 2 Traidores / 6–10 Inocentes | 8–12 Jugadores | Activo |
+
+Al configurar tu sala con estos **códigos de asesino o inocente**, asegúrate de que los ajustes de creador permitan la asignación automática de roles. Si la partida comienza sin asignar asesinos, recarga el ajuste preestablecido a través del menú de importación del Workshop para actualizar las variables de los scripts.
+
+## Reglas fundamentales y mecánicas de roles
+
+Cada ronda comienza con un sistema de lotería automatizado. El script del Workshop designa a un pequeño porcentaje de los participantes —normalmente limitado a un máximo del 25% del total de la sala— como asesinos (o traidores). El resto de los participantes aparece como inocentes.
+
+```
+       [Inicio de ronda: Comienza la partida]
+                          |
+           +--------------+--------------+
+           |                             |
+  [Inocentes (75%+)]              [Asesinos (Máx 25%)]
+           |                             |
+- Camuflarse y observar       - Eliminar a los rezagados
+- Confirmar confianza         - Evitar la atención del grupo
+  (Destellos)                 - Eliminar a todos los inocentes
+- Eliminar a los asesinos reales         |
+           |                             |
+           +--------------+--------------+
+                          |
+            [Victoria: La facción sobrevive]
+```
+
+### Las reglas de combate
+
+La regla definitoria de este formato de deducción social radica en la responsabilidad por fuego amigo:
+- **Inocente ataca a Inocente:** El agresor muere instantáneamente. Si un jugador inocente identifica erróneamente a un aliado y le dispara, el script ejecuta al atacante como penalización por acusación falsa.
+- **Inocente ataca a Asesino:** El ataque daña y elimina al asesino de forma normal.
+- **Asesino ataca a Inocente:** Los traidores pueden eliminar a los inocentes libremente sin sufrir daño de retroceso autoinfligido.
+- **Asesino ataca a Asesino:** Por lo general, los asesinos no pueden dañar a sus compañeros de conspiración, lo que evita el fuego amigo accidental dentro del sindicato de traidores.
+
+| Rol | Objetivo | Vulnerabilidad principal | Rasgo identificativo |
+| :--- | :--- | :--- | :--- |
+| **Inocente** | Identificar y eliminar a todos los asesinos | Vulnerable a la penalización fatal por disparo fallido | Aparecen destellos cuando se confirma |
+| **Asesino / Traidor** | Eliminar en secreto a todos los inocentes | En gran desventaja numérica en combate abierto | Actúa con sigilo, finge tareas habituales |
+
+Debido a la severa penalización por disparar por error, los inocentes no pueden simplemente acribillar las habitaciones a ciegas. Debes reunir pruebas concluyentes antes de apretar el gatillo contra un presunto asesino.
+
+## Movimiento universal y habilidades específicas de héroes
+
+Las versiones modernas de estos modos de juego introducen físicas de movimiento únicas y conjuntos de habilidades modificados. Estas mecánicas permiten a los jugadores escapar de esquinas peligrosas, reposicionarse en tejados o verificar la lealtad de otro jugador.
+
+### Herramientas de movimiento global
+
+Cada participante, independientemente de su facción, tiene acceso a un conjunto de habilidades básicas de movimiento vinculadas a una barra de resistencia personalizada:
+
+1. **Sprint:** Mantener presionado el botón de interactuar aumenta significativamente tu velocidad de movimiento hacia adelante. Correr consume tu medidor de resistencia personalizado. Si agotas la resistencia al 0%, la regeneración sufre un enfriamiento de penalización de 3 segundos antes de comenzar a recargarse.
+2. **Supersalto:** Mantenerse agachado carga un salto vertical a gran velocidad. Al dejar de agacharse y presionar saltar, tu héroe se eleva por los aires. Esta habilidad cuenta con un tiempo de reutilización estándar de 12 segundos, convirtiendo las rutas de escape en decisiones tácticas.
+
+| Habilidad de movimiento | Comando de entrada | Coste de recurso | Aplicación estratégica |
+| :--- | :--- | :--- | :--- |
+| **Sprint** | Mantener [Interactuar] | Consumo continuo de resistencia | Huir de emboscadas o acortar distancias |
+| **Supersalto** | Cargar [Agacharse] + [Saltar] | 12 segundos de enfriamiento | Alcanzar posiciones elevadas; escapar de asesinos |
+| **Agotamiento de resistencia** | Automático al llegar al 0% | Retraso de recuperación de 3 s | Extrema vulnerabilidad en combate |
+
+### Interacciones de misterio específicas de héroes
+
+Muchos **códigos de asesino o inocente** modifican las habilidades estándar de los héroes para convertirlas en utilidades de deducción social. En lugar de infligir daño directo, estas herramientas permiten a los jugadores comprobar identidades, desplazarse por el mapa o conseguir supervivencia temporal.
+
+| Héroe | Habilidad base utilizada | Efecto modificado de deducción social | Uso táctico del jugador |
+| :--- | :--- | :--- | :--- |
+| **Ana** | Nanoestimulante | Otorga invulnerabilidad total breve | Sobrevivir a una emboscada repentina de un traidor |
+| **Baptiste** | Energía regeneradora | Establece temporalmente la gravedad del jugador a cero | Flotar hacia puntos de observación inesperados |
+| **Bastion** | Autorreparación / Reconfiguración | Genera partículas de destellos sin importar el rol | Engañar a otros para generar una falsa confianza |
+| **Sombra** | Hackeo | Muestra partículas de destellos en objetivos inocentes | Herramienta de detective para verificar aliados inocentes |
+| **Zenyatta** | Orbe de discordia | Intercambia las posiciones entre Zenyatta y el objetivo | Confundir a los asesinos o aislar a sospechosos |
+
+Basándonos en la experiencia de juego, confiar en señales visuales como el hackeo de verificación de Sombra ofrece el camino más seguro hacia la victoria para el equipo inocente. Por el contrario, un asesino que juegue con Bastion puede activar deliberadamente la autorreparación para generar destellos falsos, engañando a toda la sala haciéndoles creer que es un inocente confirmado.
+
+## Cómo importar códigos personalizados en el cliente del juego
+
+Configurar una partida lleva menos de un minuto una vez que dispones de un código alfanumérico activo. Sigue estos sencillos pasos para cargar el ajuste preestablecido de tu partida personalizada:
+
+```
+[Menú principal] -> [Partidas personalizadas] -> [Crear partida] -> [Ajustes] -> [Icono Importar código] -> [Pegar y Confirmar]
+```
+
+1. Inicia el cliente del juego y selecciona **Jugar**, luego navega hasta **Partidas personalizadas**.
+2. Haz clic en el botón naranja **Crear** en la esquina superior derecha para generar una sala vacía.
+3. Abre el menú **Ajustes**.
+4. En la pestaña **Resumen** situada en el lado derecho, haz clic en el segundo icono: **Importar código** (representado por una hoja con una flecha).
+5. Pega el código elegido en el campo de texto y confirma.
+6. Regresa a la pantalla de la sala, invita a tus amigos o ábrela al público, y haz clic en **Comenzar**.
+
+Si un código devuelve el error "Error al importar", es probable que el script del Workshop haya sido compilado en una versión anterior del motor. Verifica siempre que los ajustes de tu sala reflejen las actualizaciones actuales de la comunidad.
+
+## Estrategias de victoria para Asesinos e Inocentes
+
+Tener éxito en las partidas de deducción social requiere equilibrar paciencia, psicología y ejecución mecánica. Así es como ambos bandos pueden dominar la sala.
+
+### Tácticas de supervivencia para Inocentes
+- **Forma tríos, no multitudes:** Viajar en parejas es peligroso porque un asesino puede eliminarte en una esquina a ciegas sin testigos. Moverse en grupos de tres garantiza que, si uno resulta ser un asesino, el tercer jugador presenciará el acto y aplicará justicia de inmediato.
+- **Vigila el uso de la resistencia:** Los asesinos a menudo consumen la resistencia de sprint antes de tiempo al intentar acortar distancias. Si un jugador se te acerca esprintando sin motivo aparente, haz un supersalto hacia una posición elevada de inmediato.
+- **Aprovecha los kits de detective:** Si tu ajuste incluye a Sombra o a Bastion, designa a un detective confirmado pronto. Hacer que Sombra verifique a los jugadores elimina las suposiciones y reduce drásticamente la lista de sospechosos.
+
+### Estrategias de subterfugio para Asesinos
+- **Aísla a los rezagados:** Nunca ataques cuando varios inocentes compartan línea de visión. Espera hasta que un jugador se separe para buscar paquetes de salud o inspeccionar una habitación aislada.
+- **Utiliza el destello falso como arma:** Si la mecánica de destello de Bastion está activa, úsala frente a un grupo al principio de la ronda. Ganarte una confianza inmerecida te permitirá caminar detrás de objetivos prioritarios sin levantar sospechas.
+- **Provoca el retroceso por fuego amigo:** Crúzate en el fuego cruzado de los inocentes o incita a los jugadores nerviosos a dispararte primero sin pruebas sólidas. Si un inocente actúa por impulso y ataca a otro inocente, el script de la partida lo eliminará por ti.
+
+## Preguntas frecuentes
+
+### ¿Por qué mis códigos de asesino o inocente muestran un error de importación?
+Los scripts personalizados pueden quedar obsoletos cuando las actualizaciones estándar del juego modifican valores base de héroes, geometrías de mapas o variables de script. Cuando los desarrolladores parchean el cliente principal, los creadores de la comunidad suelen lanzar códigos revisados. Consulta siempre los foros recientes de la comunidad del Workshop para asegurarte de que tu código coincida con la versión actual del cliente.
+
+### ¿Qué sucede si un inocente elimina a otro inocente?
+En prácticamente todos los modos de deducción social del Workshop, existe una lógica estricta contra el sabotaje. Si un jugador inocente dispara y elimina a un compañero inocente, el script activa inmediatamente la muerte instantánea del atacante. Esto garantiza que los inocentes solo disparen cuando tengan pruebas irrefutables de la identidad de un traidor.
+
+### ¿Cuántos asesinos aparecen en una sala promedio?
+Los ajustes estándar limitan los asesinos a un máximo del 25% del total de la sala. En una sala de 8 jugadores, normalmente te enfrentarás a 1 o 2 asesinos. En salas más grandes de 12 jugadores, pueden aparecer hasta 3 traidores. Esta proporción mantiene el equilibrio, asegurando que los asesinos dependan del sigilo y el aislamiento en lugar de la fuerza bruta.
+
+### ¿Pueden los asesinos usar habilidades para fingir ser inocentes?
+Sí. Ciertos ajustes permiten a héroes específicos imitar las señales de verificación. Por ejemplo, los jugadores que controlan a Bastion pueden utilizar mecánicas de reparación para generar indicadores de destello sin importar su rol real. Observa siempre las acciones y el posicionamiento de los jugadores en lugar de confiar ciegamente en los efectos visuales.
