@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Killer or Innocent Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the Killer or Innocent basics: how a round starts, how roles are handed out, and what killers and innocents must each do to win."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Killer or Innocent Codes",
+          "description": "Check the current code list, see what each reward gives, and follow the redeem steps before the codes expire."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Roles and Classes",
+          "description": "Compare every Killer or Innocent role - killer, innocent, detective, murderer, and bystander - and pick the playstyle that suits you."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Tips and Strategy",
+          "description": "Read other players, collect clues faster, and build the survival habits that decide Killer or Innocent rounds."
         }
       ]
     },
@@ -66,10 +66,10 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "All Codes",
+        "Role Guides",
+        "Beginner Guide",
+        "Tips & Tricks"
       ],
       "cards": [
         {
@@ -129,202 +129,304 @@
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Killer or Innocent?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Killer or Innocent is a Roblox social deduction game built around a hidden-role murder mystery. Every round secretly splits the lobby into killers and innocents, then drops both sides onto the same map with completely different goals: one side hunts in secret, while the other survives, investigates, and votes out the threat.",
+        "Because rounds are decided by reading other players rather than raw combat, Killer or Innocent rewards observation, communication, and fast decisions. Our wiki collects role breakdowns, clue and evidence mechanics, control layouts, code lists, and progression guides so you can play either side with confidence."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Social Deduction"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Core Roles",
+          "value": "5"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Key Mechanics",
+          "value": "Clues & Evidence"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Game Modes",
+          "value": "Rounds & Party Mode"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Guide Articles",
+          "value": "36"
+        },
+        {
+          "label": "Content Types",
+          "value": "8"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Killer or Innocent Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Every Killer or Innocent system in one place - beginner walkthroughs, working codes, role breakdowns, clue and evidence mechanics, controls, progression, and community links.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Killer or Innocent Game Guide",
+          "description": "A complete beginner-friendly guide covering the core gameplay loop, objectives, roles, and how each match works. This module helps new players understand the rules and quickly learn how to play.",
+          "href": "/guide/killer-or-innocent-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Join a Killer or Innocent lobby and receive your secret role for the round."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Learn the map layout, objective spots, and where weapons and clues spawn."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Play your objective: killers hunt, innocents survive and finish tasks."
+            },
+            {
+              "label": "4",
+              "detail": "Watch movement and behaviour to tell a real killer from a panicking innocent."
+            },
+            {
+              "label": "5",
+              "detail": "Share what you found and vote before the killer thins out the lobby."
+            },
+            {
+              "label": "6",
+              "detail": "Survive to the end of the round to bank coins, XP, and unlocks."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Killer or Innocent Codes",
+          "description": "A codes section for tracking available rewards, redeem methods, and update-based code information. This targets common search intent from players looking for free items or bonuses.",
+          "href": "/codes/killer-or-innocent-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Active",
+              "detail": "Codes currently working in Killer or Innocent and the reward each one grants."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Redeem",
+              "detail": "Where to enter Killer or Innocent codes and how to claim the reward."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Rewards",
+              "detail": "Free coins, cosmetics, and boost items handed out by codes."
+            },
+            {
+              "label": "Updates",
+              "detail": "New Killer or Innocent codes added after each game update."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Killer or Innocent Roles Guide",
+          "description": "Explains the differences between Killer and Innocent roles, including goals, strategies, and important gameplay tips. Players can learn how to survive or win depending on their assigned role.",
+          "href": "/roles/killer-or-innocent-killer",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Killer",
+              "detail": "Hunt the lobby, stay hidden, and eliminate innocents before the round ends."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Innocent",
+              "detail": "Survive, finish objectives, and help the group identify the killer."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Detective",
+              "detail": "Use investigation tools and evidence to expose the killer."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Murderer",
+              "detail": "Blend into the crowd and strike when nobody is watching."
+            },
+            {
+              "label": "Bystander",
+              "detail": "Stay alive, share information, and vote with the group."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Killer or Innocent Tips and Tricks",
+          "description": "Provides practical strategies for improving gameplay, reading other players, avoiding mistakes, and increasing win chances. This section targets players searching for advanced advice after learning the basics.",
+          "href": "/guide/killer-or-innocent-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Alibis",
+              "detail": "Track who was near each body and question every weak alibi."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Suspects",
+              "detail": "Watch players who avoid groups, follow others, or lurk near exits."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Voting",
+              "detail": "Hold your vote until you have evidence - split votes protect killers."
+            },
+            {
+              "label": "Escape",
+              "detail": "Learn chase routes and hiding spots for when you are spotted."
+            },
+            {
+              "label": "Teamwork",
+              "detail": "Pair up so another player can confirm where you were."
+            },
+            {
+              "label": "Bluffing",
+              "detail": "Act like an innocent: do tasks, join discussions, and stay calm."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Killer or Innocent Updates",
+          "description": "A news and update section covering new features, events, balance changes, and official announcements. It helps returning players quickly find the latest game information.",
+          "href": "/community/killer-or-innocent-update",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Update",
+              "detail": "Latest Killer or Innocent patch notes, balance changes, and new features."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Release",
+              "detail": "Release date, launch details, and platform availability."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Gameplay",
+              "detail": "New gameplay footage and mechanic breakdowns from recent builds."
+            },
+            {
+              "label": "Rewards",
+              "detail": "Reward and unlock changes added in the newest updates."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Killer or Innocent Characters and Items",
+          "description": "A database-style module for organizing playable characters, cosmetics, items, or unlockable content. It provides a searchable reference for players exploring game content.",
+          "href": "/progression/killer-or-innocent-items",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Skins",
+              "detail": "Cosmetic skins and how to unlock them."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Items",
+              "detail": "Usable items and unlockable content in Killer or Innocent."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Coins",
+              "detail": "Where coins come from and the best ways to spend them."
+            },
+            {
+              "label": "Tools",
+              "detail": "Investigation tools and equipment used to gather evidence."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Killer or Innocent Controls Guide",
+          "description": "Lists gameplay controls and basic actions for different platforms. This helps new players quickly understand movement, interactions, and important commands.",
+          "href": "/controls/killer-or-innocent-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "Move forward, left, back, and right (arrow keys also work)."
+            },
+            {
+              "label": "Shift",
+              "detail": "Sprint to escape a chase or close the distance."
+            },
+            {
+              "label": "Space",
+              "detail": "Jump or vault over obstacles."
+            },
+            {
+              "label": "Ctrl",
+              "detail": "Crouch and walk quietly so nearby players cannot hear you."
+            },
+            {
+              "label": "LMB",
+              "detail": "Primary action - attack, strike, or use an object."
+            },
+            {
+              "label": "RMB",
+              "detail": "Secondary action - aim or guard."
+            },
+            {
+              "label": "E",
+              "detail": "Interact, pick up a weapon, or inspect a clue."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Killer or Innocent Community",
+          "description": "Collects official community channels and social links where players can find announcements, discussions, and player-created content. This module supports users searching for Discord and community resources.",
+          "href": "/community/killer-or-innocent-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Find Killer or Innocent servers, house rules, and match bots."
+            },
+            {
+              "label": "Reddit",
+              "detail": "Community threads, theories, and player discussion."
+            },
+            {
+              "label": "Roblox",
+              "detail": "Play Killer or Innocent on Roblox and join public lobbies."
+            },
+            {
+              "label": "Videos",
+              "detail": "Gameplay videos and creator guides for Killer or Innocent."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Killer or Innocent FAQ",
+      "description": "Quick answers to the most common questions about Killer or Innocent.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Killer or Innocent?",
+          "answer": "Killer or Innocent is a Roblox social deduction game where every round secretly splits the lobby into killers and innocents. Killers try to eliminate the other players without being caught, while innocents survive, gather clues, and vote out the killer."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do you play Killer or Innocent on Roblox?",
+          "answer": "Join a Killer or Innocent lobby from the Roblox game page and collect your secret role. Killers then hunt in secret, innocents finish objectives and watch for suspicious behaviour, and everyone votes once the round reaches its discussion phase."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which Killer or Innocent role should beginners pick?",
+          "answer": "Start with the innocent role in Killer or Innocent. It teaches map awareness and clue reading without the pressure of hunting, and the detective role is the natural next step once you can spot suspicious movement."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I get codes for Killer or Innocent?",
+          "answer": "Check the Killer or Innocent codes page for the current list, then enter each code exactly as written in the in-game redeem menu to collect the reward before it expires."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How many roles are in Killer or Innocent?",
+          "answer": "Killer or Innocent rounds assign hidden roles such as killer, innocent, detective, murderer, and bystander. Every role has its own goal, so the same lobby plays out very differently depending on what you are given."
         }
       ]
     },
