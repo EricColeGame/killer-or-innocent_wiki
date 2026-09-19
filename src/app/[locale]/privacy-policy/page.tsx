@@ -1,11 +1,27 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 
-export default function PrivacyPolicyPage() {
+type PageProps = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.privacy" });
+  const site = await getTranslations({ locale, namespace: "site" });
+  return {
+    title: `${t("title")} | ${site("name")}`,
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/privacy-policy` },
+  };
+}
+
+export default async function PrivacyPolicyPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.privacy" });
+  const paragraphs = t.raw("paragraphs") as string[];
   return (
-    <LegalPage title="Privacy Policy">
-      <p>This fan wiki provides informational game guides for Killer or Innocent. We do not request account credentials, Roblox passwords, or private payment information.</p>
-      <p>Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.</p>
-      <p>External links may lead to Roblox, the Roblox community group for Killer or Innocent, or community tools. Those services are governed by their own privacy policies.</p>
+    <LegalPage title={t("title")}>
+      {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

@@ -1,11 +1,27 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 
-export default function AboutPage() {
+type PageProps = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  const site = await getTranslations({ locale, namespace: "site" });
+  return {
+    title: `${t("title")} | ${site("name")}`,
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/about` },
+  };
+}
+
+export default async function AboutPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  const paragraphs = t.raw("paragraphs") as string[];
   return (
-    <LegalPage title="About">
-      <p>Killer or Innocent Wiki is an independent fan-built guide hub covering roles, maps, codes, survival tactics, and essential game knowledge for new and veteran players alike.</p>
-      <p>Killer or Innocent is a Roblox social deduction game developed by GamesCans Productions, in which one player is secretly the killer while everyone else must survive and uncover the truth.</p>
-      <p>We are not affiliated with GamesCans Productions or Roblox. All trademarks belong to their respective owners.</p>
+    <LegalPage title={t("title")}>
+      {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

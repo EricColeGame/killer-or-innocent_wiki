@@ -421,6 +421,8 @@
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
+    "noActiveCodes": "No active codes currently available",
+    "checkBackSoon": "Check back soon for new codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
@@ -436,6 +438,49 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse Killer or Innocent Guides"
+  },
+  "legal": {
+    "about": {
+      "title": "About",
+      "metaDescription": "About Killer or Innocent Wiki: an independent, fan-built guide hub for the Roblox social deduction game Killer or Innocent.",
+      "paragraphs": [
+        "Killer or Innocent Wiki is an independent fan-built guide hub covering roles, maps, codes, survival tactics, and essential game knowledge for new and veteran players alike.",
+        "Killer or Innocent is a Roblox social deduction game developed by GamesCans Productions, in which one player is secretly the killer while everyone else must survive and uncover the truth.",
+        "We are not affiliated with GamesCans Productions or Roblox. All trademarks belong to their respective owners."
+      ]
+    },
+    "copyright": {
+      "title": "Copyright",
+      "metaDescription": "Copyright and trademark notice for Killer or Innocent Wiki, including attribution for Killer or Innocent and Roblox assets.",
+      "paragraphs": [
+        "Killer or Innocent, Roblox, in-game artwork, logos, and related media belong to GamesCans Productions and their respective owners.",
+        "This site is a non-official fan wiki implementation created for informational and guide presentation purposes.",
+        "If you own rights to content displayed here and have a concern, please contact the site operator for review."
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "How Killer or Innocent Wiki handles analytics, advertising, hosting data, and external links.",
+      "paragraphs": [
+        "This fan wiki provides informational game guides for Killer or Innocent. We do not request account credentials, Roblox passwords, or private payment information.",
+        "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+        "External links may lead to Roblox, the Roblox community group for Killer or Innocent, or community tools. Those services are governed by their own privacy policies."
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "metaDescription": "Terms of Service for using Killer or Innocent Wiki, including content accuracy and acceptable use.",
+      "paragraphs": [
+        "This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.",
+        "Game systems, codes, roles, and update details may change without notice. Always verify important information in-game or through official channels.",
+        "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official GamesCans Productions or Roblox property."
+      ]
+    }
   },
   "footer": {
     "aboutTitle": "Killer or Innocent Wiki",

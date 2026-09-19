@@ -1,1 +1,503 @@
-{}
+{
+  "site": {
+    "name": "Killer or Innocent Wiki Português",
+    "shortName": "Killer or Innocent",
+    "tagline": "Guias de funções, mapas, códigos e dicas de sobrevivência de Killer & Innocent",
+    "description": "O Killer or Innocent Wiki oferece guias do jogo de Roblox, códigos, dicas de jogabilidade, estratégias, mapas e atualizações para ajudar você a sobreviver e descobrir a verdade.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "roles": "Funções",
+    "modes": "Modos",
+    "controls": "Controles",
+    "progression": "Progressão",
+    "codes": "Códigos",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Killer or Innocent Wiki — Códigos, Guia e Dicas",
+      "description": "O Killer or Innocent Wiki oferece guias do jogo de Roblox, códigos, dicas de jogabilidade, estratégias, mapas e atualizações para ajudar você a sobreviver e descobrir a verdade."
+    },
+    "hero": {
+      "eyebrow": "Jogo de mistério e assassinato no Roblox",
+      "title": "Killer or Innocent Wiki",
+      "description": "Killer or Innocent é um jogo de dedução social do Roblox em que os jogadores precisam identificar o assassino, sobreviver a encontros perigosos e usar estratégia, trabalho em equipe e habilidades de investigação para vencer.",
+      "stats": [
+        "4,7M+ Visitas",
+        "6,5K+ Favoritos",
+        "Partidas de 12 jogadores",
+        "Atualizado em set 2026"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Guia de funções",
+      "tertiaryCta": "Jogar no Roblox",
+      "videoLabel": "Vídeo de gameplay"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Killer or Innocent",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda o básico de Killer or Innocent: como uma rodada começa, como as funções são distribuídas e o que cada lado precisa fazer para vencer."
+        },
+        {
+          "number": "2",
+          "title": "Códigos de Killer or Innocent",
+          "description": "Confira a lista de códigos ativos, veja a recompensa de cada um e siga os passos de resgate antes que eles expirem."
+        },
+        {
+          "number": "3",
+          "title": "Funções e classes",
+          "description": "Compare todas as funções de Killer or Innocent — assassino, inocente, detetive, homicida e espectador — e escolha o estilo de jogo que combina com você."
+        },
+        {
+          "number": "4",
+          "title": "Dicas e estratégia",
+          "description": "Leia os outros jogadores, colete pistas mais rápido e crie os hábitos de sobrevivência que decidem as rodadas de Killer or Innocent."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta",
+      "quickLinks": [
+        "Todos os códigos",
+        "Guias de funções",
+        "Guia para iniciantes",
+        "Dicas e truques"
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Killer or Innocent?",
+      "paragraphs": [
+        "Killer or Innocent é um jogo de dedução social do Roblox construído em torno de um mistério de assassinato com funções ocultas. A cada rodada o lobby é dividido secretamente entre assassinos e inocentes, e os dois lados caem no mesmo mapa com objetivos completamente diferentes: um lado caça em segredo, enquanto o outro sobrevive, investiga e vota para eliminar a ameaça.",
+        "Como as rodadas são decididas lendo os outros jogadores e não pelo combate puro, Killer or Innocent recompensa observação, comunicação e decisões rápidas. Nossa wiki reúne análises de funções, mecânicas de pistas e provas, esquemas de controles, listas de códigos e guias de progressão para você jogar com confiança em qualquer um dos lados."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Dedução social"
+        },
+        {
+          "label": "Funções principais",
+          "value": "5"
+        },
+        {
+          "label": "Mecânicas-chave",
+          "value": "Pistas e provas"
+        },
+        {
+          "label": "Modos de jogo",
+          "value": "Rodadas e modo festa"
+        },
+        {
+          "label": "Artigos de guia",
+          "value": "36"
+        },
+        {
+          "label": "Tipos de conteúdo",
+          "value": "8"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore o Killer or Innocent Wiki",
+      "description": "Todos os sistemas de Killer or Innocent em um só lugar: guias para iniciantes, códigos ativos, análises de funções, mecânicas de pistas e provas, controles, progressão e links da comunidade.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia do jogo Killer or Innocent",
+          "description": "Um guia completo e acessível para iniciantes que cobre o ciclo principal de jogo, os objetivos, as funções e como cada partida funciona. Este módulo ajuda novos jogadores a entender as regras e a aprender rápido como jogar.",
+          "href": "/guide/killer-or-innocent-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Entre em um lobby de Killer or Innocent e receba sua função secreta da rodada."
+            },
+            {
+              "label": "2",
+              "detail": "Aprenda o mapa, os pontos de objetivo e onde armas e pistas aparecem."
+            },
+            {
+              "label": "3",
+              "detail": "Cumpra seu objetivo: assassinos caçam, inocentes sobrevivem e completam tarefas."
+            },
+            {
+              "label": "4",
+              "detail": "Observe o movimento e o comportamento para diferenciar um assassino real de um inocente em pânico."
+            },
+            {
+              "label": "5",
+              "detail": "Compartilhe o que descobriu e vote antes que o assassino reduza o lobby."
+            },
+            {
+              "label": "6",
+              "detail": "Sobreviva até o fim da rodada para acumular moedas, XP e desbloqueios."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Códigos de Killer or Innocent",
+          "description": "Uma seção de códigos para acompanhar recompensas disponíveis, métodos de resgate e informações de códigos conforme as atualizações. Atende à intenção de busca de jogadores que procuram itens ou bônus gratuitos.",
+          "href": "/codes/killer-or-innocent-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Ativos",
+              "detail": "Códigos que funcionam no momento em Killer or Innocent e a recompensa que cada um concede."
+            },
+            {
+              "label": "Resgate",
+              "detail": "Onde inserir os códigos de Killer or Innocent e como reivindicar a recompensa."
+            },
+            {
+              "label": "Recompensas",
+              "detail": "Moedas grátis, cosméticos e itens de impulso entregues pelos códigos."
+            },
+            {
+              "label": "Atualizações",
+              "detail": "Novos códigos de Killer or Innocent adicionados após cada atualização do jogo."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de funções de Killer or Innocent",
+          "description": "Explica as diferenças entre as funções de assassino e inocente, incluindo objetivos, estratégias e dicas importantes de jogabilidade. Os jogadores aprendem a sobreviver ou a vencer conforme a função recebida.",
+          "href": "/roles/killer-or-innocent-killer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Assassino",
+              "detail": "Cace no lobby, fique escondido e elimine inocentes antes que a rodada acabe."
+            },
+            {
+              "label": "Inocente",
+              "detail": "Sobreviva, conclua objetivos e ajude o grupo a identificar o assassino."
+            },
+            {
+              "label": "Detetive",
+              "detail": "Use ferramentas de investigação e provas para expor o assassino."
+            },
+            {
+              "label": "Homicida",
+              "detail": "Misture-se à multidão e ataque quando ninguém estiver olhando."
+            },
+            {
+              "label": "Espectador",
+              "detail": "Continue vivo, compartilhe informações e vote com o grupo."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Dicas e truques de Killer or Innocent",
+          "description": "Traz estratégias práticas para melhorar a jogabilidade, ler outros jogadores, evitar erros e aumentar as chances de vitória. É voltada a jogadores que buscam conselhos avançados depois de aprender o básico.",
+          "href": "/guide/killer-or-innocent-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Álibis",
+              "detail": "Acompanhe quem estava perto de cada corpo e questione todo álibi fraco."
+            },
+            {
+              "label": "Suspeitos",
+              "detail": "Fique de olho em quem evita grupos, segue os outros ou ronda as saídas."
+            },
+            {
+              "label": "Votação",
+              "detail": "Segure seu voto até ter provas — votos divididos protegem o assassino."
+            },
+            {
+              "label": "Fuga",
+              "detail": "Aprenda rotas de perseguição e esconderijos para quando for visto."
+            },
+            {
+              "label": "Trabalho em equipe",
+              "detail": "Ande em dupla para que outro jogador confirme onde você estava."
+            },
+            {
+              "label": "Blefe",
+              "detail": "Aja como inocente: faça tarefas, participe das discussões e mantenha a calma."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Atualizações de Killer or Innocent",
+          "description": "Uma seção de notícias e atualizações que cobre novos recursos, eventos, ajustes de equilíbrio e anúncios oficiais. Ajuda quem está voltando a encontrar rapidamente as informações mais recentes do jogo.",
+          "href": "/community/killer-or-innocent-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Atualização",
+              "detail": "Últimas notas de patch de Killer or Innocent, ajustes de equilíbrio e novos recursos."
+            },
+            {
+              "label": "Lançamento",
+              "detail": "Data de lançamento, detalhes de estreia e plataformas disponíveis."
+            },
+            {
+              "label": "Jogabilidade",
+              "detail": "Novos vídeos de gameplay e análises de mecânicas das versões recentes."
+            },
+            {
+              "label": "Recompensas",
+              "detail": "Mudanças em recompensas e desbloqueios adicionadas nas atualizações mais recentes."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Personagens e itens de Killer or Innocent",
+          "description": "Um módulo em estilo de banco de dados para organizar personagens jogáveis, cosméticos, itens ou conteúdo desbloqueável. Oferece uma referência pesquisável para jogadores que exploram o conteúdo do jogo.",
+          "href": "/progression/killer-or-innocent-items",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Skins",
+              "detail": "Skins cosméticas e como desbloqueá-las."
+            },
+            {
+              "label": "Itens",
+              "detail": "Itens utilizáveis e conteúdo desbloqueável em Killer or Innocent."
+            },
+            {
+              "label": "Moedas",
+              "detail": "De onde vêm as moedas e as melhores formas de gastá-las."
+            },
+            {
+              "label": "Ferramentas",
+              "detail": "Ferramentas de investigação e equipamentos usados para reunir provas."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guia de controles de Killer or Innocent",
+          "description": "Lista os controles do jogo e as ações básicas em diferentes plataformas. Ajuda novos jogadores a entender rapidamente o movimento, as interações e os comandos importantes.",
+          "href": "/controls/killer-or-innocent-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "Mova-se para frente, esquerda, trás e direita (as setas também funcionam)."
+            },
+            {
+              "label": "Shift",
+              "detail": "Corra para escapar de uma perseguição ou encurtar a distância."
+            },
+            {
+              "label": "Space",
+              "detail": "Salte ou passe por cima de obstáculos."
+            },
+            {
+              "label": "Ctrl",
+              "detail": "Agache e ande em silêncio para que os jogadores próximos não ouçam você."
+            },
+            {
+              "label": "LMB",
+              "detail": "Ação principal — atacar, golpear ou usar um objeto."
+            },
+            {
+              "label": "RMB",
+              "detail": "Ação secundária — mirar ou se proteger."
+            },
+            {
+              "label": "E",
+              "detail": "Interagir, pegar uma arma ou inspecionar uma pista."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Comunidade de Killer or Innocent",
+          "description": "Reúne os canais oficiais de comunidade e os links sociais onde os jogadores encontram anúncios, discussões e conteúdo criado por outros jogadores. Este módulo atende quem procura Discord e recursos da comunidade.",
+          "href": "/community/killer-or-innocent-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Encontre servidores de Killer or Innocent, regras internas e bots de partidas."
+            },
+            {
+              "label": "Reddit",
+              "detail": "Tópicos da comunidade, teorias e discussão entre jogadores."
+            },
+            {
+              "label": "Roblox",
+              "detail": "Jogue Killer or Innocent no Roblox e entre em lobbies públicos."
+            },
+            {
+              "label": "Vídeos",
+              "detail": "Vídeos de gameplay e guias de criadores sobre Killer or Innocent."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre Killer or Innocent",
+      "description": "Respostas rápidas às perguntas mais comuns sobre Killer or Innocent.",
+      "items": [
+        {
+          "question": "O que é Killer or Innocent?",
+          "answer": "Killer or Innocent é um jogo de dedução social do Roblox em que cada rodada divide secretamente o lobby entre assassinos e inocentes. Os assassinos tentam eliminar os outros jogadores sem serem pegos, enquanto os inocentes sobrevivem, reúnem pistas e votam para expulsar o assassino."
+        },
+        {
+          "question": "Como jogar Killer or Innocent no Roblox?",
+          "answer": "Entre em um lobby de Killer or Innocent pela página do jogo no Roblox e receba sua função secreta. Depois os assassinos caçam em segredo, os inocentes concluem objetivos e observam comportamentos suspeitos, e todos votam quando a rodada chega à fase de discussão."
+        },
+        {
+          "question": "Qual função de Killer or Innocent os iniciantes devem escolher?",
+          "answer": "Comece pela função de inocente em Killer or Innocent. Ela ensina leitura de mapa e de pistas sem a pressão de caçar, e a função de detetive é o próximo passo natural quando você já percebe movimentos suspeitos."
+        },
+        {
+          "question": "Como consigo códigos de Killer or Innocent?",
+          "answer": "Confira a página de códigos de Killer or Innocent para ver a lista atual e insira cada código exatamente como escrito no menu de resgate do jogo para receber a recompensa antes que ele expire."
+        },
+        {
+          "question": "Quantas funções existem em Killer or Innocent?",
+          "answer": "As rodadas de Killer or Innocent atribuem funções ocultas como assassino, inocente, detetive, homicida e espectador. Cada função tem seu próprio objetivo, então o mesmo lobby se desenrola de formas muito diferentes conforme o que você recebe."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para sobreviver em Killer or Innocent?",
+      "description": "Da sua primeira rodada às fugas no limite, nossa wiki da comunidade cobre funções, mapas, códigos e táticas de sobrevivência com guias gratuitos e atualizados.",
+      "primary": "Ler o guia para iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias de Killer or Innocent",
+    "overviewDescription": "Todos os guias de Killer or Innocent em um só lugar: tutoriais para iniciantes, como jogar, dicas de estratégia e planos de jogo por função para assassinos, inocentes e detetives."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Killer or Innocent",
+    "overviewDescription": "Como Killer or Innocent realmente funciona: pistas, provas, investigações, a lógica do mistério de assassinato e as mecânicas que separam o jogo do assassino do jogo dos inocentes."
+  },
+  "roles": {
+    "overviewTitle": "Funções de Killer or Innocent",
+    "overviewDescription": "Todas as funções de Killer or Innocent explicadas, incluindo assassino, inocente, detetive, homicida e espectador, com condições de vitória, habilidades e como jogar cada uma."
+  },
+  "modes": {
+    "overviewTitle": "Modos de jogo de Killer or Innocent",
+    "overviewDescription": "Os modos de jogo de Killer or Innocent, o modo festa, os lobbies multijogador e a estrutura das rodadas explicados, para você saber exatamente o que esperar antes de a rodada começar."
+  },
+  "controls": {
+    "overviewTitle": "Controles de Killer or Innocent",
+    "overviewDescription": "Controles de Killer or Innocent para atacar, defender e usar a faca, com as teclas, o timing e o básico de combate necessários para vencer uma luta direta."
+  },
+  "progression": {
+    "overviewTitle": "Progressão em Killer or Innocent",
+    "overviewDescription": "A progressão em Killer or Innocent explicada: recompensas, moedas, itens e skins, além das formas mais rápidas de desbloquear tudo o que o jogo oferece."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Killer or Innocent",
+    "overviewDescription": "Todos os códigos de Killer or Innocent em uma lista, com o que cada recompensa oferece e como resgatar códigos ativos antes que expirem."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Killer or Innocent",
+    "overviewDescription": "O hub da comunidade de Killer or Innocent: links oficiais de Reddit e Discord, notícias da data de lançamento, notas de atualização e cobertura de gameplay feita pelos jogadores."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Códigos ativos",
+    "noActiveCodes": "Nenhum código ativo no momento",
+    "checkBackSoon": "Volte em breve para ver novos códigos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura relacionada",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "cta": "Ver os guias de Killer or Innocent"
+  },
+  "legal": {
+    "about": {
+      "title": "Sobre",
+      "metaDescription": "Sobre o Killer or Innocent Wiki: um hub de guias independente feito por fãs para o jogo de dedução social da Roblox Killer or Innocent.",
+      "paragraphs": [
+        "O Killer or Innocent Wiki é um hub de guias independente feito por fãs, cobrindo funções, mapas, códigos, táticas de sobrevivência e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+        "Killer or Innocent é um jogo de dedução social da Roblox desenvolvido pela GamesCans Productions, no qual um jogador é secretamente o assassino enquanto todos os outros precisam sobreviver e descobrir a verdade.",
+        "Não temos nenhuma afiliação com a GamesCans Productions nem com a Roblox. Todas as marcas registradas pertencem aos seus respectivos proprietários."
+      ]
+    },
+    "copyright": {
+      "title": "Direitos autorais",
+      "metaDescription": "Aviso de direitos autorais e marcas registradas do Killer or Innocent Wiki, com atribuição dos recursos de Killer or Innocent e Roblox.",
+      "paragraphs": [
+        "Killer or Innocent, Roblox, as artes do jogo, os logotipos e as mídias relacionadas pertencem à GamesCans Productions e aos seus respectivos proprietários.",
+        "Este site é uma implementação de wiki de fãs não oficial criada para fins informativos e de apresentação de guias.",
+        "Se você detém os direitos de algum conteúdo exibido aqui e tem alguma objeção, entre em contato com o operador do site para análise."
+      ]
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "metaDescription": "Como o Killer or Innocent Wiki trata análises, publicidade, dados de hospedagem e links externos.",
+      "paragraphs": [
+        "Esta wiki de fãs oferece guias informativos sobre o jogo Killer or Innocent. Não solicitamos credenciais de conta, senhas da Roblox ou informações privadas de pagamento.",
+        "Provedores de análise básica, publicidade e hospedagem podem tratar informações técnicas padrão, como tipo de dispositivo, navegador, região aproximada e páginas visitadas.",
+        "Links externos podem levar à Roblox, ao grupo da comunidade Roblox de Killer or Innocent ou a ferramentas da comunidade. Esses serviços são regidos pelas próprias políticas de privacidade."
+      ]
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "metaDescription": "Termos de Serviço para usar o Killer or Innocent Wiki, incluindo exatidão do conteúdo e uso aceitável.",
+      "paragraphs": [
+        "Este site é um hub de guias independente feito por fãs. O conteúdo é fornecido apenas para fins informativos e de entretenimento.",
+        "Sistemas do jogo, códigos, funções e detalhes de atualizações podem mudar sem aviso. Verifique sempre as informações importantes no jogo ou nos canais oficiais.",
+        "Ao usar este site, você concorda em não fazer uso indevido, não tentar acessos não autorizados e não apresentar esta wiki de fãs como propriedade oficial da GamesCans Productions ou da Roblox."
+      ]
+    }
+  },
+  "footer": {
+    "aboutTitle": "Killer or Innocent Wiki Português",
+    "about": "O Killer or Innocent Wiki é um hub de guias independente feito por fãs, cobrindo funções, mapas, códigos, táticas de sobrevivência e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Killer or Innocent Wiki. Sem afiliação com a GamesCans Productions ou a Roblox.",
+    "description": "Jogo de sobrevivência gratuito no Roblox. Rodadas de 12 jogadores, um assassino oculto e uma tripulação de inocentes.",
+    "playGame": "Jogar no Roblox",
+    "robloxGroup": "Grupo da comunidade no Roblox",
+    "codesHub": "Códigos e recompensas",
+    "guidesHub": "Todos os guias",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "rolesGuides": "Funções",
+    "mechanicsGuides": "Mecânicas",
+    "modesGuides": "Modos de jogo"
+  }
+}

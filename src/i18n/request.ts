@@ -9,7 +9,8 @@ import de from "@/locales/de.json";
 type Messages = typeof en;
 
 // 每种语言对应的消息包：键集合必须与 routing.locales 完全一致。
-// 非英语文件目前为空对象 {}，deepMerge 会自动回退到 en，待后续阶段补齐译文。
+// 四个语言包均已提供完整译文（键结构与 en.json 逐叶一致）；
+// deepMerge 仍保留，用于将来只补部分键时按叶回退到 en。
 const messagesMap: Record<string, Partial<Messages>> = {
   "en": en,
   "es": es,
