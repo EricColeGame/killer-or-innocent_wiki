@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "Killer or Innocent Wiki",
+    "shortName": "Killer or Innocent",
+    "tagline": "Killer & Innocent Role Guides, Maps, Codes & Survival Tips",
+    "description": "Killer or Innocent Wiki provides Roblox game guides, codes, gameplay tips, strategies, maps, and updates to help players survive and discover the truth.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -26,23 +26,23 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Killer or Innocent Wiki — Codes, Guide & Tips",
+      "description": "Killer or Innocent Wiki provides Roblox game guides, codes, gameplay tips, strategies, maps, and updates to help players survive and discover the truth."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Roblox Murder Mystery Game",
+      "title": "Killer or Innocent Wiki",
+      "description": "Killer or Innocent is a Roblox social deduction game where players must identify the killer, survive dangerous encounters, and use strategy, teamwork, and investigation skills to win.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "4.7M+ Visits",
+        "6.5K+ Favorites",
+        "12-Player Rounds",
+        "Updated Sep 2026"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "secondaryCta": "Role Guide",
+      "tertiaryCta": "Play on Roblox",
+      "videoLabel": "Gameplay video"
     },
     "updates": {
       "title": "Latest Updates",
@@ -180,7 +180,7 @@
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
+      "title": "Explore Killer or Innocent Wiki",
       "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
       "modules": [
         {
@@ -342,15 +342,15 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Survive Killer or Innocent?",
+      "description": "From your first round to clutch escapes our community wiki covers roles, maps, codes, and survival tactics with free, up-to-date guides.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
   },
   "bosses": {
     "meta": {
-      "title": "Bosses — Complete Guide & Walkthrough | My Seafood Stand Wiki",
+      "title": "Bosses — Complete Guide & Walkthrough | Killer or Innocent Wiki",
       "description": "Complete boss guides for My Seafood Stand — all bosses from tutorial Gelum to endgame encounters with strategies, drops, and respawn timers."
     },
     "overviewTitle": "Bosses Overview",
@@ -379,21 +379,20 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Killer or Innocent Wiki",
+    "about": "Killer or Innocent Wiki is an independent fan-built guide hub covering roles, maps, codes, survival tactics, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
-    "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "copyright": "2026 Killer or Innocent Wiki. Not affiliated with GamesCans Productions or Roblox.",
+    "description": "Free-to-play Roblox survival game. 12-player rounds, one hidden killer, innocent crew.",
+    "playGame": "Play on Roblox",
+    "robloxGroup": "Roblox Community Group",
+    "codesHub": "Codes & Rewards",
+    "guidesHub": "All Guides",
+    "raceGuides": "Races",
+    "bossGuides": "Bosses",
+    "mapsGuide": "Maps",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

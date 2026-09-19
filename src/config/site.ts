@@ -9,6 +9,7 @@ export interface SiteConfig {
   gameUrl?: string;
   heroVideoId?: string;
   social?: {
+    robloxGroup?: string;
     discord?: string;
     youtube?: string;
     twitter?: string;
@@ -29,10 +30,10 @@ export const siteConfig: SiteConfig = {
   gameUrl: "https://www.roblox.com/games/120951586797306/Killer-or-Innocent",
   heroVideoId: "hnNE4g1l-YI", // Roblox Killer or Innocent gameplay video
   social: {
-    // GamesCans Productions (the developer) publishes no verifiable standalone
-    // Discord/YouTube channel; point at the verified Roblox official channels.
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    // GamesCans Productions publishes no verifiable standalone Discord/YouTube
+    // channel for this game, so we link only its verified Roblox community group
+    // instead of pointing at unrelated Roblox-run accounts.
+    robloxGroup: "https://www.roblox.com/groups/97331962",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
